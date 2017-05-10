@@ -1,1 +1,0 @@
-Add a print method to your XYPoint class defined in Chapter 8. Have it display the point in the format (x, y).Then modify Program 9.2 to incorporate an XYPoint object. Have the modified program create an XYPoint object, set its value, assign it to the id variable dataValue, and then display its value.
