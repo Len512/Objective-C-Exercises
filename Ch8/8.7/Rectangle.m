@@ -62,39 +62,29 @@
     NSLog(@"D(%f, %f)", d.x, d.y);
     
     if ([self containsPoint:a]){
-        
         intersection.x = a.x;
         intersection.y = origin.y;
         w = width + origin.x - a.x;
         h = a.y - origin.y;
-        NSLog(@"A");
-        
     } else if ([self containsPoint:b]) {
-    
         intersection.x = b.x;
         intersection.y = height + origin.y;
         w = width + origin.x - b.x;
         h = intersection.y - b.y;
-        NSLog(@"B");
     } else if ([self containsPoint:c]) {
-
         intersection.x = c.x;
         intersection.y = height + origin.y;
         w = c.x - origin.x;
         h = intersection.y - c.y;
-        NSLog(@"C");
     } else if ([self containsPoint:d]) {
-    
         intersection.x = d.x;
         intersection.y = origin.y;
         w = intersection.x - origin.x;
         h = d.y - origin.y;
-        NSLog(@"D");
     } else {
         [intersection setX:0 andY:0];
         w = 0;
         h = 0;
-        NSLog(@"Zero");
     }
     [result setWidth:w andHeight:h];
     [result setOrigin:intersection];
