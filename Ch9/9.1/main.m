@@ -1,3 +1,8 @@
+// What will happen if you insert the message expression
+// [compResult reduce];
+// into Program 9.1 after the addition is performed (but before compResult is re-
+// leased)? Try it and see.
+
 #import <Foundation/Foundation.h>
 #import "Complex.h"
 #import "Fraction.h"
