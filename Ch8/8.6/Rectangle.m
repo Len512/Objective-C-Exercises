@@ -33,7 +33,7 @@
     origin.y += pt.y;
 }
 - (BOOL) containsPoint: (XYPoint *) pt {
-    if (pt.x >= origin.x && pt.x <= origin.x + width && pt.x >= origin.y && pt.y <= origin.y + height){
+    if (pt.x >= origin.x && pt.x <= origin.x + width && pt.y >= origin.y && pt.y <= origin.y + height){
         return YES;
     } else {
         return NO;
