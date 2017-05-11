@@ -1,0 +1,2 @@
+In a random objective-c (.m) file, import #limits.h and #float.h, then right click and Jump to Definition.
+The files open in the editor.
