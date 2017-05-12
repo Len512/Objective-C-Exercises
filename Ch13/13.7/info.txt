@@ -1,3 +1,5 @@
+Running main.m prints the following in the terminal:
+
 2017-05-12 09:36:50.613397 Ch13[757:13500] Programming in Objective-C is fun
 2017-05-12 09:36:50.613603 Ch13[757:13500] Programming in Objective-C is fun
 2017-05-12 09:36:50.613622 Ch13[757:13500] Programming in Objective-C is fun
