@@ -1,27 +1,18 @@
-#ifndef AddressBook_h
-#define AddressBook_h
-
+#ifndef AddressCard_h
+#define AddressCard_h
 #import <Foundation/Foundation.h>
-#import "AddressCard.h"
 
-@interface AddressBook : NSObject
+@interface AddressCard : NSObject
 {
-    NSString       *bookName;
-    NSMutableArray *book;
+    NSString *name;
+    NSString *email;
 }
-@property NSString *bookName;
-- (id) initWithName: (NSString *) name;
+@property (copy, nonatomic) NSString *name, *email;
+- (id) initWithName: (NSString *) n andEmail: (NSString *) e;
 - (id) init;
-
-- (long int) entries;
-- (void) list;
-- (void) sort;
-
-- (void) addCard: (AddressCard *) theCard;
-- (void) removeCard: (AddressCard *) theCard;
-
-- (NSMutableArray *) lookup: (NSString *) theName;
+- (void) print;
+- (void) setName: (NSString *) theName andEmail: (NSString *) theEmail;
+- (NSComparisonResult) compareNames: (id) element;
 
 @end
-
-#endif /* AddressBook_h */
+#endif /* AddressCard_h */
