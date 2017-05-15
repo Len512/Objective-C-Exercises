@@ -27,6 +27,9 @@
     NSLog(@"======== Contents of: %@ =========", bookName);
     for ( AddressCard *theCard in book){
         NSLog(@"%-20s   %-32s", [theCard.name UTF8String], [theCard.email UTF8String]);
+        NSLog(@"%-20s", [theCard.address UTF8String]);
+        NSLog(@"%-20s", [theCard.country UTF8String]);
+        NSLog(@"%-20s", [theCard.phoneNumber UTF8String]);
         NSLog(@"=====================================================");
     }
 }
