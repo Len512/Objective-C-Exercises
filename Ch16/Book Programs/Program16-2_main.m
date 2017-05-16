@@ -5,8 +5,8 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        NSString *new2 = @"/Users/eleni/Documents/Programming/ObjC-Kochan/Ch16/Ch16/newfile2";
-        NSString *new3 = @"/Users/eleni/Documents/Programming/ObjC-Kochan/Ch16/Ch16/newfile3";
+        NSString *new2 = @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch16/Ch16/newfile2";
+        NSString *new3 = @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch16/Ch16/newfile3";
         
         NSFileManager *fm;
         NSData *fileData;
