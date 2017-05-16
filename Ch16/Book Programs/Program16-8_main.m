@@ -7,8 +7,8 @@ int main(int argc, const char * argv[]) {
         
         NSFileHandle *inFile, *outFile;
         NSData *buffer;
-        NSString *fileA =  @"/Users/USER/Documents/Programming/ObjC-Kochan/Ch16/Ch16/testfile";
-        NSString *fileB =  @"/Users/USER/Documents/Programming/ObjC-Kochan/Ch16/Ch16/newfile";
+        NSString *fileA =  @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch16/Ch16/testfile";
+        NSString *fileB =  @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch16/Ch16/newfile";
         
         // Open fileA for reading
         inFile = [NSFileHandle fileHandleForReadingAtPath:fileA];
