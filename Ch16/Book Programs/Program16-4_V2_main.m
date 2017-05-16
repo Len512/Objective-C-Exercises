@@ -1,5 +1,5 @@
 // Enumerate the contents of a directory
-
+// explicitly setting the path (not using [fm currentDirectoryPath])
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
