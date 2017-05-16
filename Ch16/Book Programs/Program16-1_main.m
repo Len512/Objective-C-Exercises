@@ -9,9 +9,9 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        NSString *fName = @"/Users/USER/Documents/Programming/ObjC-Kochan/Ch16/Ch16/testfile";
-        NSString *new = @"/Users/USER/Documents/Programming/ObjC-Kochan/Ch16/Ch16/newfile";
-        NSString *new2 = @"/Users/USER/Documents/Programming/ObjC-Kochan/Ch16/Ch16/newfile2";
+        NSString *fName = @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch16/Ch16/testfile";
+        NSString *new = @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch16/Ch16/newfile";
+        NSString *new2 = @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch16/Ch16/newfile2";
         NSFileManager *fm;
         NSDictionary *attr;
         
