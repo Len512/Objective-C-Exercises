@@ -5,7 +5,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        NSString *path = @"/Users/USER/Documents/Programming/ObjC-Kochan/Ch16/Ch16/";
+        NSString *path = @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch16/Ch16/";
         NSFileManager *fm;
         NSDirectoryEnumerator *dirEnum;
         NSArray *dirArray;
