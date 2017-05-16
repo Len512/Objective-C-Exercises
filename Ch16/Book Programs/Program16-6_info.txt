@@ -1,11 +1,11 @@
 Open terminal and navigate to the directory where the project files are stored.
 Needed files/dirs: copy.m, newfile.m, newdir 
 Compile copy.m: clang -fobjc-arc -framework Foundation copy.m -o copy
-user$ ./copy
+Len512$ ./copy
 Usage: copy src dest
-user$ ./copy copy.m path.m
+Len512$ ./copy copy.m path.m
 Copy of copy.m to path.m succeeded!
-user$ ./copy copy.m newdir
+Len512$ ./copy copy.m newdir
 Copy of copy.m to newdir/copy.m succeeded!
-user$ ls newdir
+Len512$ ls newdir
 copy.m
