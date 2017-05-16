@@ -1,0 +1,4 @@
+In a terminal, go to project directory and compile copy.m to copy: 
+clang -fobjc-arc -framework Foundation copy.m -o copy
+Run with: 
+ ./copy file1 file2 file3 file4 dir
