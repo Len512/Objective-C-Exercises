@@ -9,8 +9,8 @@ int main(int argc, const char * argv[]) {
         
         NSFileHandle *inFile, *outFile;
         NSData *buffer;
-        NSString *iName =  @"/Users/USER/Documents/Programming/ObjC-Kochan/Ch16/Ch16/testfile";
-        NSString *oName =  @"/Users/USER/Documents/Programming/ObjC-Kochan/Ch16/Ch16/testout";
+        NSString *iName =  @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch16/Ch16/testfile";
+        NSString *oName =  @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch16/Ch16/testout";
         
         // Open the testfile for reading
         inFile = [NSFileHandle fileHandleForReadingAtPath:iName];
