@@ -1,0 +1,4 @@
+Create an AddressCard *temp to hold the AddressCard to add.
+Then, when adding the card, temp can be added and not the card itself.
+So, when the card is removed/altered, we essentially handle the card 
+contained in the temp pointer, and not the card itself.
