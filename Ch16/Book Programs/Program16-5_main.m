@@ -8,7 +8,7 @@ int main(int argc, const char * argv[]) {
         NSString *fName = @"path.m";
         NSFileManager *fm;
         NSString *path, *tempdir, *extension, *homedir, *fullpath;
-        NSString *upath = @"~user/documents/../ch16/./path.m";
+        NSString *upath = @"~Len512/documents/../ch16/./path.m";
         
         NSArray *components;
         fm = [NSFileManager defaultManager];
