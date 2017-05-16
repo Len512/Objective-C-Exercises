@@ -8,7 +8,7 @@ int main(int argc, const char * argv[]) {
         NSString *dirName = @"testdir";
         NSString *path;
         NSFileManager *fm;
-        NSString *newdir = @"/Users/USER/Documents/Programming/ObjC-Kochan/Ch16/Ch16/newdir";
+        NSString *newdir = @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch16/Ch16/newdir";
         
         // Create an instance of the file manager
         fm = [NSFileManager defaultManager];
