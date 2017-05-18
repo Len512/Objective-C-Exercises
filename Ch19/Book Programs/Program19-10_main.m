@@ -10,7 +10,7 @@ int main(int argc, const char * argv[]) {
         NSData *dataArea;
         NSKeyedUnarchiver *unarchiver;
         AddressBook *myBook;
-        NSString *filename = @"/Users/eleni/Documents/Programming/ObjC-Kochan/Ch19/Ch19/myArchive";
+        NSString *filename = @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch19/Ch19/myArchive";
         
         //Read in the archive and connect an NSKeyedUnarchiver object to it
         dataArea = [NSData dataWithContentsOfFile:filename];
