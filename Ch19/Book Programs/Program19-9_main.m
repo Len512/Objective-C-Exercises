@@ -12,7 +12,7 @@ int main(int argc, const char * argv[]) {
         NSMutableData *dataArea;
         NSKeyedArchiver *archiver;
         AddressBook *myBook;
-        NSString *filename = @"/Users/eleni/Documents/Programming/ObjC-Kochan/Ch19/Ch19/myArchive";
+        NSString *filename = @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch19/Ch19/myArchive";
         
         NSString *aName = @"Julia Kochan";
         NSString *aEmail = @"jewls337@axlc.com";
