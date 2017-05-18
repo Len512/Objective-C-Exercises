@@ -8,8 +8,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         int d, isPrime, p;
         NSMutableArray *primes = [NSMutableArray array];
-        NSArray *result;
-        NSString *filename = @"/Users/eleni/Documents/Programming/ObjC-Kochan/Ch19/Ch19/primes.pl";
+        NSString *filename = @"/Users/Len512/Documents/Programming/ObjC-Kochan/Ch19/Ch19/primes.pl";
         for (p = 2; p <= 50; ++p) {
             isPrime = 1;
             if ( p % 2 != 0 || p == 2){
@@ -26,10 +25,6 @@ int main(int argc, const char * argv[]) {
         if ([primes writeToFile:filename atomically:YES] == NO){
             NSLog(@"Save to file failed!");
         }
-        
-        result = [NSArray arrayWithContentsOfFile:filename];
-        NSLog(@" %@ ", result);
-        
     }
     return 0;
 }
